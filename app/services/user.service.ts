@@ -1,7 +1,7 @@
 import { HttpClient } from "../utils/http-client.util";
 import { AxiosPromise } from "axios";
-import { UserResponseModel } from "../models/user/user-response.model";
 import { ApiConf } from "../config/api-conf.config";
+import { UserResponseModel } from "../models/response/user-response.model";
 
 
 export class UserService {

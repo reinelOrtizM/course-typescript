@@ -1,4 +1,4 @@
-import { UserAddressGeoModel } from "./user-address-geo.model";
+import { GeoModel } from "./geo.model";
 
 export class UserAddressModel {
 
@@ -6,5 +6,5 @@ export class UserAddressModel {
     private suite: string;
     private city: string;
     private zipcode: string;
-    private geo: UserAddressGeoModel;      
+    private geo: GeoModel;
 }

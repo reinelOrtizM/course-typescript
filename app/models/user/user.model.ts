@@ -1,4 +1,4 @@
-import { UserAddressModel } from "./user-address.model";
+import { UserAddressModel } from "../commons/address.model";
 import { UserCompanyModel } from "./user-company.model";
 
 export class UserModel {
