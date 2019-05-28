@@ -1,4 +1,4 @@
-export class CompanyModel {
+export class UserCompanyModel {
     
     private name: string;
     private catchPhrase: string;

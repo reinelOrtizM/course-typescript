@@ -1,4 +1,4 @@
-export class GeoModel {
+export class UserAddressGeoModel {
 
     private lat: string;
     private lng: string;

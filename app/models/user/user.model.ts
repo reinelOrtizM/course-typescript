@@ -1,5 +1,5 @@
-import { AddressModel } from "./address.model";
-import { CompanyModel } from "./company.model";
+import { UserAddressModel } from "./user-address.model";
+import { UserCompanyModel } from "./user-company.model";
 
 export class UserModel {
 
@@ -7,8 +7,8 @@ export class UserModel {
     name: string;
     username: string;
     email: string;
-    address: AddressModel;
+    address: UserAddressModel;
     phone: string;
     website: string;
-    company: CompanyModel;
+    company: UserCompanyModel;
 }
