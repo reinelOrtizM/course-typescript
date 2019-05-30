@@ -17,7 +17,7 @@ export class HttpClient {
             resposeType: 'json',
             data: data,
             header: {
-                'Content-type': 'application/json'
+                'Content-Type': 'application/json'
             }
         }
 

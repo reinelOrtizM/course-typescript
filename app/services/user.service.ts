@@ -5,7 +5,8 @@ import { UserResponseModel } from "../models/response/user-response.model";
 
 
 export class UserService {
-    private serviceURL: string = `${ApiConf.API_URL}/users`;
+    //private serviceURL: string = `${ApiConf.API_URL}/users`;
+    private serviceURL: string = `${ApiConf.API_URL}/5cf0449030000019dc3cd58d`;
     private _httpClient: HttpClient;
 
     constructor(){
@@ -13,6 +14,6 @@ export class UserService {
     }
 
     getUsers(): AxiosPromise<UserResponseModel>{
-        return this._httpClient.get(this.serviceURL)
+        return this._httpClient.get(this.serviceURL);
     }
 }
